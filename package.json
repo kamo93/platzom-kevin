@@ -1,0 +1,31 @@
+{
+  "name": "platzom-kevin",
+  "version": "0.1.0",
+  "description": "Es mi primer paquete es una prueba con lenguage hecho en platzi",
+  "main": "dist/src/platzom-kevin.js",
+  "scripts": {
+    "build": "babel src/platzom-kevin.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamo93/platzom-kevin.git"
+  },
+  "keywords": [
+    "PrimerPaquete",
+    "js",
+    "Fundamentos",
+    "Platzi"
+  ],
+  "author": "Kevin Mancera <kevin_andres_@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamo93/platzom-kevin/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
